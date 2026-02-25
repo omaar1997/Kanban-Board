@@ -29,7 +29,6 @@ export default function KanbanColumn({
 
   const { setNodeRef, isOver } = useDroppable({ id: column.id });
 
-  const totalPages = Math.ceil(tasks.length / PAGE_SIZE);
   const visibleTasks = tasks.slice(0, page * PAGE_SIZE);
   const hasMore = visibleTasks.length < tasks.length;
 

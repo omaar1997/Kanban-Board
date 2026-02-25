@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import { useForm } from 'react-hook-form';
-import { Task, Column, Priority, CreateTaskInput, COLUMNS } from '@/types';
+import { Task, Column, CreateTaskInput, COLUMNS } from '@/types';
 
 interface TaskModalProps {
   isOpen: boolean;
